@@ -4,7 +4,29 @@ if defined? ActiveRecord
   describe CashRails::ActiveRecord::Casherizable do
     describe "casherize" do
       before :each do
+        Cash.default_from = :cents
         @product = Product.create(price_in_paise: 3000)
+      end
+
+      context "with Cash setting as decimal" do
+        before do
+          Cash.default_from = :decimal
+          @product = Product.create(price_in_paise: 3000)
+        end
+
+        it "returns the expected cash amount as a Cash object" do
+          @product.price.should == Cash.new(30)
+        end
+
+        it "assigns the correct value from a Cash object" do
+          @product.price = Cash.new(3210)
+          @product.price_in_paise.should == 321000
+        end
+
+        it "assigns the correct value from a Numeric object" do
+          @product.price = 3210
+          @product.price_in_paise.should == 321000
+        end
       end
 
       it "attaches a Cash object to model field" do

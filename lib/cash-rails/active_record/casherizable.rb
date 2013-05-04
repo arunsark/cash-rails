@@ -17,13 +17,25 @@ module CashRails
 
             memoized = instance_variable_get("@#{name}")
             return memoized if memoized && memoized.cents == amount
-            amount = Cash.new(amount) unless amount.blank?
+            unless amount.blank?
+              if Cash.default_from == :cents
+                amount = Cash.new(amount)
+              else
+                amount = Cash.new(amount / 100.0)
+              end
+            end
             instance_variable_set "@#{name}", amount
           end
 
           define_method "#{name}=" do |value|
             begin
-              cash = value.is_a?(Cash) ? value : Cash.new(value * 100)
+              if value.is_a?(Cash)
+                cash = value
+              elsif Cash.default_from == :cents
+                cash = Cash.new(value * 100)
+              else
+                cash = Cash.new(value)
+              end
             rescue NoMethodError
               return nil
             end
