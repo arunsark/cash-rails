@@ -1,0 +1,520 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.9ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (70.1ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:06:53 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:06:53 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.6ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:07:27 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:07:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:08:05 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:08:05 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (3.2ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:08:48 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:08:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (3.0ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:10:01 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:10:01 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (3.0ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:10:30 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:10:30 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (3.2ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:15:27 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:15:27 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:15:27 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:15:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (148.8ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:16:31 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:16:31 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (120.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:16:31 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:16:31 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (27.5ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:16:31 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:16:31 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:16:31.475903' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (151.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (2.0ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:18:06 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:18:06 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:18:06 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:18:06 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:18:06 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:18:06 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:18:06.913682' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:18:06 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:18:06 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:18:06.922644' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (3.1ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:19:48 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:19:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:19:48 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:19:48 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:19:48 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:19:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:19:48.925744' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:19:48 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:19:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:19:48.934795' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (35.5ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (41.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:28:45 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:28:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:28:45 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:28:45 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:28:45 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:28:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:28:45.935992' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:28:45 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:28:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:28:45.945066' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:28:45 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:28:45 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:28:45 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:28:45 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (2.0ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:29:36.783441' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:29:36.792178' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:29:36 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:29:36 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 215, "updated_at" = '2013-05-04 08:29:36.806089' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (239.2ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (30.2ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (65.8ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (49.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (6.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:30:39.658153' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (14.6ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:30:39.684062' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (6.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (46.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:30:39 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:30:39 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 21500, "updated_at" = '2013-05-04 08:30:39.752124' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (133.9ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.9ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (22.9ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (39.9ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:31:11.878063' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:31:11.885940' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 21500, "updated_at" = '2013-05-04 08:31:11.898999' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (24.4ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (39.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:31:22.585540' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:31:22.593069' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:31:22 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:31:22 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 215, "updated_at" = '2013-05-04 08:31:22.605197' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (2.8ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:32:58.206963' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:32:58.215194' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 215, "updated_at" = '2013-05-04 08:32:58.229468' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:32:58 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:32:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 0, "updated_at" = '2013-05-04 08:32:58.236088' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (2.7ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:33:13.340663' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:33:13.350308' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 215, "updated_at" = '2013-05-04 08:33:13.366540' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:33:13 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:33:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 0, "updated_at" = '2013-05-04 08:33:13.372723' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mDELETE FROM "products";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'products';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (58.3ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:39:11 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:11 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 3210, "updated_at" = '2013-05-04 08:39:12.029377' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "products" SET "price_in_paise" = 321000, "updated_at" = '2013-05-04 08:39:12.038072' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3210], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "products" SET "price_in_paise" = 215, "updated_at" = '2013-05-04 08:39:12.050602' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "products" ("created_at", "price_in_paise", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Sat, 04 May 2013 08:39:12 UTC +00:00], ["price_in_paise", 3000], ["updated_at", Sat, 04 May 2013 08:39:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "products" SET "price_in_paise" = 0, "updated_at" = '2013-05-04 08:39:12.058425' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
