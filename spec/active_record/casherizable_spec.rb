@@ -43,6 +43,14 @@ if defined? ActiveRecord
         @product.save
         @product.price_in_paise.should == 0
       end
+
+      it "derives variable name stripping characters after _" do
+        @product.should respond_to(:price)
+        class << @product
+          casherize :discount_in_cents
+        end
+        @product.should respond_to(:discount)
+      end
     end
   end
 end

@@ -9,14 +9,12 @@ module CashRails
 
       module ClassMethods
         def casherize(field, *args)
-          # Stringify model field name
           subunit_name = field.to_s
-          name = subunit_name.sub(/_in_paise$/, "")
+          name = subunit_name.sub(/_.+$/, "")
 
           define_method name do |*args|
             amount = send(subunit_name, *args)
 
-            # Dont create a new Money instance if the values haven't changed
             memoized = instance_variable_get("@#{name}")
             return memoized if memoized && memoized.cents == amount
             amount = Cash.new(amount) unless amount.blank?
