@@ -49,6 +49,11 @@ if defined? ActiveRecord
         @product.price_in_paise.should == 321000
       end
 
+      it "assigns the correct value from a String Object" do
+        @product.price = "arun"
+        @product.price_in_paise.should == 0
+      end
+
       it "assigns the correct value from a Cash object using create" do
         @product = Product.create(:price => Cash.new(3210))
         @product.valid?.should be_true
@@ -66,12 +71,26 @@ if defined? ActiveRecord
         @product.price_in_paise.should == 0
       end
 
-      it "derives variable name stripping characters after _" do
-        @product.should respond_to(:price)
-        class << @product
-          casherize :discount_in_cents
+      context "registered currency" do
+        it "derives cash field name stripping registered currency postfix" do
+          class << @product
+            casherize :discount_in_cents
+            casherize :current_balance_in_paise
+            casherize :profit_cents
+          end
+          @product.should respond_to(:discount)
+          @product.should respond_to(:current_balance)
+          @product.should respond_to(:profit)
         end
-        @product.should respond_to(:discount)
+      end
+
+      context "non-registered currency" do
+        it "derives cash field name stripping characters after first _" do
+          class << @product
+            casherize :discount_pounds
+          end
+          @product.should respond_to(:discount)
+        end
       end
     end
   end

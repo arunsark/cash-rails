@@ -9,11 +9,11 @@ Gem::Specification.new do |s|
   s.version     = CashRails::VERSION
   s.authors     = ["Arun Vydianathan"]
   s.email       = ["arun.vydianathan@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/arunsark/cash-rails"
   s.summary     = "Cashrb with Rails"
-  s.description = "TODO: Description of CashRails."
+  s.description = "Easy way to integrate cashrb with Active Record."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = s.files.grep(/^spec\//)
 
   s.require_path = "lib"

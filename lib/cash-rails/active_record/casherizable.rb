@@ -10,7 +10,12 @@ module CashRails
       module ClassMethods
         def casherize(field, *args)
           subunit_name = field.to_s
-          name = subunit_name.sub(/_.+$/, "")
+          postfix = CashRails::Configuration.cash_column_postfix.select { |postfix| subunit_name =~ /#{postfix}$/ }[0]
+          if postfix
+            name = subunit_name.sub(postfix, "")
+          else
+            name = subunit_name.sub(/_.+$/, "")
+          end
 
           define_method name do |*args|
             amount = send(subunit_name, *args)
