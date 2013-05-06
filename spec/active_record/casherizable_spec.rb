@@ -71,6 +71,11 @@ if defined? ActiveRecord
         @product.price_in_paise.should == 0
       end
 
+      it "returns price as zero if price is nil" do
+        @product = Product.new
+        @product.price.should eq(Cash.new(0))
+      end
+
       context "registered currency" do
         it "derives cash field name stripping registered currency postfix" do
           class << @product

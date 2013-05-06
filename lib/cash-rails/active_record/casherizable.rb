@@ -28,6 +28,8 @@ module CashRails
               else
                 amount = Cash.new(amount / 100.0)
               end
+            else
+              amount = Cash.new(0)
             end
             instance_variable_set "@#{name}", amount
           end
